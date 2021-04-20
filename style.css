@@ -17,11 +17,20 @@ strong {
 
 h1, p {
    padding-left: 24px;
+   padding-right: 24px;
+}
+
+h2 {
+   margin-block-start: 8px;
 }
 
 .intro-chunk {
    margin-left: auto;
    margin-right: auto;
+   width: 500px;
+}
+
+.intro-chunk p {
    width: 300px;
 }
 
@@ -33,6 +42,8 @@ main .max-width-wrapper {
 .card {
    margin-left: auto;
    margin-right: auto;
+   margin-top: 60px;
+   padding-top: 2px;
    width: 500px;
    border-bottom: 5px solid hsl(0deg, 0%, 40%);
    background-color: white;
@@ -40,8 +51,10 @@ main .max-width-wrapper {
 
 .indented-heading {
    margin-left: -16px;
-   margin-top: 8px;
+   padding-top: 8px;
+   text-align: center;
    width: 400px;
+   height: 50px;
    background-color: hsl(45deg, 100%, 50%);
    border-bottom: 5px solid hsl(45deg, 100%, 40%);
 }
