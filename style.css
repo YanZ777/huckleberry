@@ -27,24 +27,27 @@ h2 {
 .intro-chunk {
    margin-left: auto;
    margin-right: auto;
-   width: 500px;
+   max-width: 600px;
+   height: 40%;
+   padding-top: 25px;
 }
 
 .intro-chunk p {
-   width: 300px;
+   max-width: 300px;
 }
 
 main .max-width-wrapper {
    border-top: 5px solid hsl(0deg, 0%, 40%);
    background-color: hsl(0deg, 0%, 60%);
+   height: 60%;
 }
 
 .card {
    margin-left: auto;
    margin-right: auto;
-   margin-top: 60px;
+   margin-top: 56px;
    padding-top: 2px;
-   width: 500px;
+   max-width: 600px;
    border-bottom: 5px solid hsl(0deg, 0%, 40%);
    background-color: white;
 }
@@ -53,7 +56,7 @@ main .max-width-wrapper {
    margin-left: -16px;
    padding-top: 8px;
    text-align: center;
-   width: 400px;
+   max-width: 400px;
    height: 50px;
    background-color: hsl(45deg, 100%, 50%);
    border-bottom: 5px solid hsl(45deg, 100%, 40%);
